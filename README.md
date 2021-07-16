@@ -1,4 +1,4 @@
 # Exercicios da Trybe
 ## Aqui estou desenvolvendo minhas habilidades em Desenvolvimento Web
-### Os exercicios estserão organizados por blocos de conteúdos
+### Os exercicios estarão organizados por blocos de conteúdos
 ### Cada bloco contenplará uma hard skill, das varias que terei que desenvolver durante o curso.
