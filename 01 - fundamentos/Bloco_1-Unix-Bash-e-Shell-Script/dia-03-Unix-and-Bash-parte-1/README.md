@@ -1,7 +1,7 @@
 
-#Exercícios
+# Exercícios
 
-##Parte I - Criação de arquivos e diretórios
+## Parte I - Criação de arquivos e diretórios
 
 **Dica** : Para criação de arquivos vazios você pode utilizar o comando `touch nome-do-arquivo.extensao`.
 
@@ -31,7 +31,7 @@
 
 13. Limpe o terminal.
 
-####Para os exercícios 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional (através do mouse), um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+#### Para os exercícios 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional (através do mouse), um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
 
 `Internet`
 `Unix`
@@ -48,7 +48,7 @@
 
 16. Apague todos os arquivos que terminem em .txt.
 
-##Parte II - Manipulação e Busca
+## Parte II - Manipulação e Busca
 
 1. Na pasta unix_tests, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
 
@@ -64,7 +64,7 @@
 
 6. Busque novamente por brazil, mas agora utilizando o lower case.
 
-####Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases a sua escolha. Não precisa criar o arquivo pelo terminal.
+#### Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases a sua escolha. Não precisa criar o arquivo pelo terminal.
 
 7. Busque pelas frases que não contenham a palavra fox.
 
