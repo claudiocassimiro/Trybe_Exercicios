@@ -52,13 +52,13 @@
 
 #### Contando o numero de palavras do arquivo phrases
 
-`echo -e "Total de palavras: $(cat phrases.txt | wc -w)`
+`echo "Total de palavras:" $(cat phrases.txt | wc -w)`
 
 # Exercício 9
 
 #### Contando o numero de linhas do arquivo phrases
 
-`echo -e "Total de linhas: $(cat phrases.txt | wc -l)`
+`echo "Total de linhas:" $(cat phrases.txt | wc -l)`
 
 # Exercício 10
 
