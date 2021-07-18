@@ -2,7 +2,7 @@
  
 :rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](#english-version---trybe). 
 
-Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por  [Maria Fernanda Michetti](https://www.linkedin.com/in/claudiocassimiro/) enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket: (2021-2022).
+Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por  [Claudio Cassimiro](https://www.linkedin.com/in/claudiocassimiro/) enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket: (2021-2022).
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
@@ -433,7 +433,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
  # English version - Trybe
 
-  This repository contains all activities that are being developed by  _[Maria Fernanda Michetti](https://www.linkedin.com/in/claudiocassimiro/)_  while studying at  [Trybe](https://www.betrybe.com/)  🚀 (2020 - 2021).
+  This repository contains all activities that are being developed by  _[Cláudio Cassimiro](https://www.linkedin.com/in/claudiocassimiro/)_  while studying at  [Trybe](https://www.betrybe.com/)  🚀 (2020 - 2021).
 
 The web development training program from Trybe has a workload of  **1500 hours**  that covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
 
