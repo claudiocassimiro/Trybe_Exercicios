@@ -20,8 +20,9 @@
 
 9. Adicione dois nomes de países ao final do arquivo phrases2.txt.
 
-10. Crie um novo arquivo chamado bunch_of_things.txt com os conteúdos dos arquivos phrases2.txt e countries.txt
-Ordene o arquivo bunch_of_things.txt.
+10. Crie um novo arquivo chamado bunch_of_things.txt com os conteúdos dos arquivos phrases2.txt e countries.txt.
+
+11. Ordene o arquivo bunch_of_things.txt.
 
 ## Parte II - Permissões
 
