@@ -149,5 +149,5 @@
   `kill %3`
   `kill %4`
 
-#### Não achei interresante colocar os codigos utilizados na atividade Bônus, pois eles são alto explicativos!
+#### Não achei interesante colocar os codigos utilizados na atividade Bônus, pois eles são alto explicativos!
 
