@@ -21,7 +21,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 2-1: _O que é e para que serve?_
 
-:black_large_square: 2-2: _Entendendo os comandos_
+:ballot_box_with_check: 2-2: _Entendendo os comandos_
 
 :black_large_square: 2-3: _Internet - Entendendo como ela funciona_
 
@@ -452,7 +452,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 2-1: _What is it and what is it used for?_
 
-:black_large_square: 2-2: _Understanding the commands_
+:ballot_box_with_check: 2-2: _Understanding the commands_
 
 :black_large_square: 2-3: _Internet - Understading how it works_
 
