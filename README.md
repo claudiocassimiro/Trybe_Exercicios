@@ -23,7 +23,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 2-2: _Entendendo os comandos_
 
-:black_large_square: 2-3: _Internet - Entendendo como ela funciona_
+:ballot_box_with_check: 2-3: _Internet - Entendendo como ela funciona_
 
 
 ### Bloco 3: Introdução - HTML & CSS
@@ -454,7 +454,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 2-2: _Understanding the commands_
 
-:black_large_square: 2-3: _Internet - Understading how it works_
+:ballot_box_with_check: 2-3: _Internet - Understading how it works_
 
 ### Part 3: Introduction - HTML & CSS
 
