@@ -19,8 +19,9 @@ Durante esse bloco, desenvolvi habilidades com Git e GitHub.
 
 ### BLoco 2.3 - Internet, entendendo como ela funciona
 
-* 
-* 
-* 
-* 
+* O que acontece no momento em que o usuario digita a url do site desejado e preciona enter?
+* Desenvolvi conhecimentos sobre como funciona e quais são as peças que montam a internet.
+* Modelo cliente-servidor, requisições e respostas http e https.
+* O protocolo http, verbos e funcionamento.
+* Base de envio e recibimento de dados via protocolo TCP/IP.
 
