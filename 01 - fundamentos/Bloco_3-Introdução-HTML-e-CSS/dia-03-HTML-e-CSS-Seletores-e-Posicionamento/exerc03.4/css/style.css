@@ -1,0 +1,34 @@
+ol li.impar {
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+li {
+    font-size: 20px;
+}
+
+ol li.par {
+    color: green;
+}
+
+h1, h3 {
+    color: red;
+}
+
+h1.italic {
+    font-size: 40px;
+}
+
+.item {
+    color: blue;
+}
+
+.jv {
+    background-color: pink;
+}
+
+.ref li:hover {
+    font-weight: bold;
+    color: red;
+}
