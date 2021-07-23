@@ -20,6 +20,7 @@ div:nth-child(4) {
 
 div:nth-child(5) {
     background-color: green;
+    height: 50px;
 }
 
 div:nth-child(n) > h3 {
@@ -28,10 +29,12 @@ div:nth-child(n) > h3 {
 
 div:nth-child(2n +1) > h3 {
     color: cyan;
+    font-style: italic;
 }
 
 div:nth-child(3) > h3 {
     color: purple;
+    font-style: italic;
 }
 
 div:nth-child(4) > h3 {
@@ -40,4 +43,5 @@ div:nth-child(4) > h3 {
 
 div:nth-child(5) > h3 {
     color: salmon;
+    font-style: italic;
 }
