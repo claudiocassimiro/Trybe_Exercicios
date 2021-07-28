@@ -1,3 +1,5 @@
+// Exercicio 7
+
 let porcentagem = 100;
 
 if (porcentagem < 0 || porcentagem > 100) {
