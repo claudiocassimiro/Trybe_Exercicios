@@ -36,7 +36,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 3-4: _HTML Semântico_
 
-:black_large_square: 3-5: _Projeto - Lesson Learned_
+:ballot_box_with_check: 3-5: _Projeto - Lesson Learned_
   
 
 ### Bloco 4: Introdução - JavaScript e Lógica
@@ -466,7 +466,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 3-4: _HTML semantic elements_
 
-:black_large_square: 3-5: _Project - Lesson Learned_
+:ballot_box_with_check: 3-5: _Project - Lesson Learned_
   
 ### Part 4: Introdução - JavaScript e Lógica
 
