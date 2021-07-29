@@ -1,106 +1,39 @@
 // // Exercicio 11
 
-// let salarioBruto = 3000;
-// let salarioLiquido;
-// let salarioFormatado;
+let aliquotaINSS;
+let aliquotaIR;
 
-// // Alíquota IR / INSS
+let salarioBruto = 3000;
 
-// const aliquota1IR = 142.80;
-// const aliquota2IR = 354.80;
-// const aliquota3IR = 636.13;
-// const aliquota4IR = 869.36;
+if (salarioBruto <= 1556.94) {
+    aliquotaINSS = salarioBruto * 0.08;
+}
+else if (salarioBruto <= 2594.92) {
+    aliquotaINSS = salarioBruto * 0.09;
+}
+else if (salarioBruto <= 5189.82) {
+    aliquotaINSS = salarioBruto * 0.11;
+}
+else {
+    aliquotaINSS = 570,88;
+}
 
-// const aliquota1INSS = salarioBruto - ((salarioBruto * 8) / 100);
-// const aliquota2INSS = salarioBruto - ((salarioBruto * 9) / 100);
-// const aliquota3INSS = salarioBruto - ((salarioBruto * 11) / 100);
-// const aliquota4INSS = salarioBruto - 570.88;
+let salarioBase = salarioBruto - aliquotaINSS;
 
-// // Aplica o desconto do INSS
+if (salarioBase <= 1903.98) {
+    aliquotaIR = 0;
+}
+else if (salarioBase <= 2826.65) {
+    aliquotaIR = (salarioBase * 0.075) - 142,80;
+}
+else if (salarioBase <= 3751.05) {
+    aliquotaIR = (salarioBase * 0.15) - 354.80;
+}
+else if (salarioBase <= 4664.68) {
+    aliquotaIR = (salarioBase * 0.225) - 636.13;
+}
+else {
+    aliquota = (salarioBase * 0.275) - 869.36;
+}
 
-// if (salarioBruto <= 1556.94) {
-//     salarioBruto -= salarioBruto - aliquota1INSS;
-//     salarioFormatado = salarioBruto.toLocaleString();
-//     salarioLiquido = Number.parseFloat(salarioFormatado);
-// }
-// else if (salarioBruto > 1556.94 && salarioBruto <= 2594.92) {
-//     salarioBruto -= salarioBruto - aliquota2INSS;
-//     salarioFormatado = salarioBruto.toLocaleString();
-//     salarioLiquido = Number.parseFloat(salarioFormatado);
-
-//     // Aplica o desconto do IR
-
-//     if (salarioLiquido <= 1903.98) {
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 1903.98 && salarioLiquido <= 2826.65) {
-//         salarioLiquido - aliquota1IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 2826.65 && salarioLiquido <= 3751.05) {
-//         salarioLiquido - aliquota2IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 3751.05 && salarioLiquido <= 4664.68) {
-//         salarioLiquido - aliquota3IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 4664.68) {
-//         salarioLiquido - aliquota4IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-// }
-// else if (salarioBruto > 2594.92 && salarioBruto <= 5189.82) {
-//     salarioBruto -= salarioBruto - aliquota3INSS;
-//     salarioFormatado = salarioBruto.toLocaleString();
-//     salarioLiquido = Number.parseFloat(salarioFormatado);
-
-//     // Aplica o desconto do IR
-
-//     if (salarioLiquido <= 1903.98) {
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 1903.98 && salarioLiquido <= 2826.65) {
-//         salarioLiquido - aliquota1IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 2826.65 && salarioLiquido <= 3751.05) {
-//         salarioLiquido - aliquota2IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 3751.05 && salarioLiquido <= 4664.68) {
-//         salarioLiquido - aliquota3IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 4664.68) {
-//         salarioLiquido - aliquota4IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-// }
-// else if (salarioBruto > 5189.82) {
-//     salarioBruto -= salarioBruto - aliquota4INSS;
-//     salarioFormatado = salarioBruto.toLocaleString();
-//     salarioLiquido = Number.parseFloat(salarioFormatado);
-
-//     // Aplica o desconto do IR
-
-//     if (salarioLiquido <= 1903.98) {
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 1903.98 && salarioLiquido <= 2826.65) {
-//         salarioLiquido - aliquota1IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 2826.65 && salarioLiquido <= 3751.05) {
-//         salarioLiquido - aliquota2IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 3751.05 && salarioLiquido <= 4664.68) {
-//         salarioLiquido - aliquota3IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-//     else if (salarioLiquido > 4664.68) {
-//         salarioLiquido - aliquota4IR;
-//         console.log(salarioLiquido.toFixed(4));
-//     }
-// }
+console.log(`Salario: R$ ${salarioBase - aliquotaIR}`)
