@@ -39,24 +39,6 @@ for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
     position -= 1;
 }
 
-// let n = 5;
-// let symbol = '*';
-// let inputLine = '';
-// let inputPosition = n;
-
-// for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
-//   for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
-//     if (columnIndex < inputPosition) {
-//       inputLine = inputLine + ' ';
-//     } else {
-//       inputLine = inputLine + symbol;
-//     }
-//   }
-//   console.log(inputLine);
-//   inputLine = '';
-//   inputPosition -= 1;
-// };
-
 // Resolução antiga
 
 // let n = 5;
