@@ -1,8 +1,7 @@
 // Exercicio 6
 
 function isPalindrome(string) {
-    let lowerCase = string;
-    let arr = lowerCase.split('');
+    let arr = string.split('');
     let arrInverted = arr.reverse();
     let stringInverted = arrInverted.join('');
     
