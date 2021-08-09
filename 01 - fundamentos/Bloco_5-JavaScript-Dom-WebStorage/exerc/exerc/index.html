@@ -47,25 +47,39 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
- Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- Crie uma função que mude a cor do quadrado vermelho para branco.
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+ 
+ 
+
+ 
+
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
+       // Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
         let paragraphs = document.getElementsByClassName('paragraph');
         paragraphs[0].innerText = 'Descrição de como eu me vejo daqui a 2 anos';
         paragraphs[2].innerText = 'Ganhando muito dinheiro fazendo o que eu gosto!';
 
+        // Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
         let main = document.getElementsByClassName('main-content');
         main[0].style.backgroundColor = ('rgb(76,164,109)');
 
+        // Crie uma função que mude a cor do quadrado vermelho para branco.
         let section = document.getElementsByClassName('center-content');
         section[0].style.backgroundColor = 'white';
 
+        // Crie uma função que corrija o texto da tag <h1>.
         let title = document.getElementsByClassName('title');
         title[0].innerText = 'Exercício 5.1 - JavaScript';
+
+        // Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+        for (let index = 0; index < paragraphs.length; index += 1) {
+            paragraphs[index].innerText = paragraphs[index].innerText.toUpperCase();
+        }
+
+        for (let index2 = 0; index2 < paragraphs.length; index2 += 1) {
+            console.log(paragraphs[index2].innerText);
+        }
+
     </script>
   </body>
 </html>
