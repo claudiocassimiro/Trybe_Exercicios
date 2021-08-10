@@ -93,6 +93,17 @@
       let image = document.createElement('img');
       image.src = 'https://picsum.photos/200';
       section2.appendChild(image);
+
+      // Exercicio 8
+      let list = document.createElement('ul');
+
+      for (let index = 1; index < 11; index += 1) {
+        let listItem = document.createElement('li');
+        listItem.innerText = index;
+        list.appendChild(listItem);
+      }
+
+      section3.appendChild(list);
     </script>
   </body>
 </html>
