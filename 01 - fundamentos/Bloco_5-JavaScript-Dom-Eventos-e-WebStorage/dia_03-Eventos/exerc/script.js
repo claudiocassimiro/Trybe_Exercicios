@@ -33,7 +33,17 @@ function createDaysOfThemMonth() {
             dayNumListItem.className = 'day'; 
         }
         calendarList.appendChild(dayNumListItem);
+        dayNumListItem.addEventListener('mouseover', zoomDays);
+        dayNumListItem.addEventListener('mouseout', noZoomDays);
     }
+    function zoomDays(event) {
+        event.target.style.fontSize = '2em';
+    }
+
+    function noZoomDays(event) {
+        event.target.style.fontSize = '1em';
+    }
+    
 }
 
 createDaysOfThemMonth();
@@ -62,11 +72,33 @@ function createBtn(string) {
                 holiday[index].style.backgroundColor = colorActualy;
             }
         }
-    } 
+    }
+
+    if (string === 'Sexta-feira') {
+        let btnSexta = document.createElement('button');
+        btnSexta.innerText = 'Sexta-feira';
+        btnSexta.id = 'btn-friday';
+        btnSexta.addEventListener('click', changeFridays);
+        return div.appendChild(btnSexta);
+    }
+
+    function changeFridays() {
+        let friday = document.getElementsByClassName('friday');
+        let sextou = 'SEXTOU';
+        let normalDays = [4, 11, 18, 25];
+        for (let index in friday) {
+            if (friday[index].innerText !== sextou) {
+                friday[index].innerText = sextou;
+            }
+            else {
+                friday[index].innerText = normalDays[index];
+            }
+        }
+    }
 }
 
 createBtn('Feriados');
-
+createBtn('Sexta-feira');
 
 
 
