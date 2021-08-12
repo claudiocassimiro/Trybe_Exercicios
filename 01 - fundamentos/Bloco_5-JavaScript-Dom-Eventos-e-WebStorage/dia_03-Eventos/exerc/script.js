@@ -37,3 +37,16 @@ function createDaysOfThemMonth() {
 }
 
 createDaysOfThemMonth();
+
+function createBtn(string) {
+    let div = document.querySelector('.buttons-container');
+    if (string === 'Feriados') {
+        let btnFeriado = document.createElement('button');
+        btnFeriado.innerText = 'Feriados';
+        btnFeriado.id = 'btn-holiday';
+
+        return div.appendChild(btnFeriado);
+    }
+}
+
+createBtn('Feriados');
