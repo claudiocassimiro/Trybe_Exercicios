@@ -44,9 +44,31 @@ function createBtn(string) {
         let btnFeriado = document.createElement('button');
         btnFeriado.innerText = 'Feriados';
         btnFeriado.id = 'btn-holiday';
+        btnFeriado.addEventListener('click', changeColor);
 
         return div.appendChild(btnFeriado);
     }
+
+    function changeColor() {
+        let holiday = document.getElementsByClassName('holiday');
+        let colorActualy = 'rgb(238,238,238)';
+        let newColor = 'rgba(102, 102, 102, 0.1)';
+
+        for (let index in holiday) {
+            if (holiday[index].style.backgroundColor !== newColor) {
+                holiday[index].style.backgroundColor = newColor;
+            }
+            else {
+                holiday[index].style.backgroundColor = colorActualy;
+            }
+        }
+    } 
 }
 
 createBtn('Feriados');
+
+
+
+
+
+
