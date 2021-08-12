@@ -18,11 +18,15 @@ function createDaysOfThemMonth() {
     const calendarList = document.querySelector('#days');
 
     for (let index = 0; index < dezDaysList.length; index += 1) {
-        const dayNumlistItem = document.createElement('li');
-        dayNumlistItem.innerHTML = dezDaysList[index];
-        dayNumlistItem.className = 'day';
-
-        calendarList.appendChild(dayNumlistItem);
+        const dayNumListItem = document.createElement('li');
+        dayNumListItem.innerHTML = dezDaysList[index];
+        if (dezDaysList[index] === 24 || dezDaysList[index] === 25 || dezDaysList[index] === 31) {
+            dayNumListItem.className = 'day holiday';
+        }
+        else {
+            dayNumListItem.className = 'day'; 
+        }
+        calendarList.appendChild(dayNumListItem);
     }
 }
 
