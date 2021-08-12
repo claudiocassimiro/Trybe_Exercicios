@@ -20,8 +20,14 @@ function createDaysOfThemMonth() {
     for (let index = 0; index < dezDaysList.length; index += 1) {
         const dayNumListItem = document.createElement('li');
         dayNumListItem.innerHTML = dezDaysList[index];
-        if (dezDaysList[index] === 24 || dezDaysList[index] === 25 || dezDaysList[index] === 31) {
+        if (dezDaysList[index] === 24 || dezDaysList[index] === 31) {
             dayNumListItem.className = 'day holiday';
+        }
+        else if (dezDaysList[index] === 25) {
+            dayNumListItem.className = 'day holiday friday'
+        }
+        else if (dezDaysList[index] === 4 || dezDaysList[index] === 11 || dezDaysList[index] === 18) {
+            dayNumListItem.className = 'day friday';
         }
         else {
             dayNumListItem.className = 'day'; 
