@@ -35,6 +35,7 @@ function createDaysOfThemMonth() {
         calendarList.appendChild(dayNumListItem);
         dayNumListItem.addEventListener('mouseover', zoomDays);
         dayNumListItem.addEventListener('mouseout', noZoomDays);
+        dayNumListItem.addEventListener('click', setClass); 
     }
     function zoomDays(event) {
         event.target.style.fontSize = '2em';
@@ -43,8 +44,30 @@ function createDaysOfThemMonth() {
     function noZoomDays(event) {
         event.target.style.fontSize = '1em';
     }
-    
+
+    function setClass(event) {
+        if (event.target.classList.contains('selected')) {
+            event.target.classList.remove('selected');
+            event.target.style.color = '#777777';
+
+        }
+        else {
+            event.target.classList.add('selected');
+            event.target.style.color = '#FFABCD';
+        }
+
+        
+    }
+
+    // function setColor() {
+    //     let selected = document.getElementsByClassName('selected');
+    //     for (let index of selected) {
+    //         index.style.color = '#FFABCD';
+    //     }
+        
+    // }
 }
+
 
 createDaysOfThemMonth();
 
@@ -100,7 +123,34 @@ function createBtn(string) {
 createBtn('Feriados');
 createBtn('Sexta-feira');
 
+function addTask() {
+    let task = document.createElement('span');
+    let br = document.createElement('br');
+    task.innerText = 'Estudar';
 
+    let taskList = document.querySelector('.my-tasks');
+    taskList.appendChild(task);
+    
+    function createTag(color) {
+        let div = document.createElement('div');
+        div.className = 'task';
+        div.style.backgroundColor = color;
+    
+        let taskList = document.querySelector('.my-tasks');
+        taskList.appendChild(div);
 
+        div.addEventListener('click', selected);
 
+        function selected() {
+            if (div.classList.contains('selected')) {
+                div.classList.remove('selected');
+            }
+            else {
+                div.classList.add('selected');
+            }
+        }
+    }
+    createTag('#FFABCD');
+}
+addTask()
 
