@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML-CSS-Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Forms HTML</h1>
+    </header>
+
+    <form action="">
+        <fieldset id="personal-dates">
+            <legend>Formulario de inscrição</legend>
+
+            <label for="input-name">Nome: </label>
+            <input id="input-name" type="text" name="text" required maxlength="40">
+
+            <label for="input-email">E-mail: </label>
+            <input id="input-email" type="email" name="email" required maxlength="50">
+
+            <label for="input-cpf">CPF: </label>
+            <input id="input-cpf" type="text" name="cpf" required maxlength="11">
+
+            <label for="input-adress">Endereço: </label>
+            <input id="input-adress" type="text" name="adress" required maxlength="200">
+
+            <label for="input-city">Cidade: </label>
+            <input id="input-city" type="text" name="city" required maxlength="28">
+
+            <label for="select-state">Estado: </label>
+            <select name="state" id="select-state" required>
+            </select>
+
+            <span>Você mora em:</span>
+            <label for="option1">Casa:</label>
+            <input type="radio" name="options" id="option1" required checked>
+            <label for="option2">Apartamento:</label>
+            <input type="radio" name="options" id="option2" required>
+        </fieldset>
+
+        <fieldset id="last job">
+            <legend>Último emprego</legend>
+            <label for="lastJob">Ultima experiencia:</label>
+            <textarea name="text" id="lastJob" rows="10" maxlength="1000" required></textarea>
+
+            <label for="input-cargo">Cargo: </label>
+            <input type="text" name="cargo" id="input-cargo" required maxlength="40">
+
+            <label for="description">Descrição do cargo: </label>
+            <textarea name="description" id="description" rows="10" required maxlength="500"></textarea>
+
+            <label for="date-of-inicial">Data de inicio: </label>
+            <input type="date" name="date" id="date-of-inicial" required>
+        </fieldset>
+
+        <button id="btn-submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
