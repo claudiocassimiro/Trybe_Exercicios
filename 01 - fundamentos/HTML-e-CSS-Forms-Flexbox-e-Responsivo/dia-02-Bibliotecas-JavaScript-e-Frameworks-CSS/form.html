@@ -4,60 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>HTML-CSS-Forms</title>
 </head>
 <body>
-    <header>
-        <h1>Forms HTML</h1>
+    <header class="container text-center">
+        <h1 class="display-1">Forms HTML</h1>
+        <p class="lead">Preencha os dados e submeta o formulário</p>
     </header>
 
-    <form action="">
-        <fieldset id="personal-dates">
-            <legend>Formulario de inscrição</legend>
+    <form action="" class="container">
+        <div id="content-inputs" class="text-center">
+            <div class="mb-3">
+                <label class="form-label lead" for="input-name">Nome: </label>
+                <input class="form-control" id="input-name" type="text" name="text" required maxlength="40">
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label lead" for="input-email">E-mail: </label>
+                <input class="form-control" id="input-email" type="email" name="email" required maxlength="50">
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label lead" for="input-cpf">CPF: </label>
+                <input class="form-control" id="input-cpf" type="text" name="cpf" required maxlength="11">
+            </div>
 
-            <label for="input-name">Nome: </label>
-            <input id="input-name" type="text" name="text" required maxlength="40">
+            <div class="mb-3">
+                <label class="form-label lead" for="input-adress">Endereço: </label>
+                <input class="form-control" id="input-adress" type="text" name="adress" required maxlength="200">
+            </div>
 
-            <label for="input-email">E-mail: </label>
-            <input id="input-email" type="email" name="email" required maxlength="50">
+            <div class="mb-3">
+                <label class="form-label lead" for="input-city">Cidade: </label>
+                <input class="form-control" id="input-city" type="text" name="city" required maxlength="28">
+            </div>
 
-            <label for="input-cpf">CPF: </label>
-            <input id="input-cpf" type="text" name="cpf" required maxlength="11">
-
-            <label for="input-adress">Endereço: </label>
-            <input id="input-adress" type="text" name="adress" required maxlength="200">
-
-            <label for="input-city">Cidade: </label>
-            <input id="input-city" type="text" name="city" required maxlength="28">
-
-            <label for="select-state">Estado: </label>
-            <select name="state" id="select-state" required>
+            <div class="mb-3">
+                <label class="form-label lead" for="select-state">Estado: </label>
+                <select class="form-select" name="state" id="select-state" required>
             </select>
+            </div>
+        </div>
 
-            <span>Você mora em:</span>
-            <label for="option1">Casa:</label>
-            <input type="radio" name="options" id="option1" required checked>
-            <label for="option2">Apartamento:</label>
-            <input type="radio" name="options" id="option2" required>
-        </fieldset>
+        <div id="content-check-inputs">
+            <p class="form-label lead">Você mora em:</p>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" name="options" id="option1" required checked>
+                <label class="form-check-label lead" for="option1">Casa:</label>
+            </div>
+            
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" name="options" id="option2" required>
+                <label class="form-check-label lead" for="option2">Apartamento:</label>
+            </div>
+        </div>
+        
+        <div id="content-experience-inputs">
+            <div class="mb-3">
+                <label class="form-label lead" for="lastJob">Ultima experiencia:</label>
+                <textarea class="form-control" name="text" id="lastJob" rows="10" maxlength="1000" required></textarea>
+            </div>
 
-        <fieldset id="last job">
-            <legend>Último emprego</legend>
-            <label for="lastJob">Ultima experiencia:</label>
-            <textarea name="text" id="lastJob" rows="10" maxlength="1000" required></textarea>
+            <div class="mb-3">
+                <label class="form-label lead" for="input-cargo">Cargo: </label>
+                <input class="form-control" type="text" name="cargo" id="input-cargo" required maxlength="40">
+            </div>
 
-            <label for="input-cargo">Cargo: </label>
-            <input type="text" name="cargo" id="input-cargo" required maxlength="40">
+            <div class="mb-3">
+                <label class="form-label lead" for="description">Descrição do cargo: </label>
+                <textarea class="form-control" name="description" id="description" rows="10" required maxlength="500"></textarea>
+            </div>
 
-            <label for="description">Descrição do cargo: </label>
-            <textarea name="description" id="description" rows="10" required maxlength="500"></textarea>
+            <div class="mb-3">
+                <label class="form-label lead" for="date-of-inicial">Data de inicio: </label>
+                <input type="date" name="date" id="date-of-inicial" required>
+            </div>
+        </div>
+    
 
-            <label for="date-of-inicial">Data de inicio: </label>
-            <input type="date" name="date" id="date-of-inicial" required>
-        </fieldset>
-
-        <button id="btn-submit">Submit</button>
+        <button id="btn-submit" class="btn btn-success">Submit</button>
     </form>
     <script src="script.js"></script>
 </body>
