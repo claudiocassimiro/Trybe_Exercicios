@@ -1,10 +1,6 @@
-const mySkills = ['HTML', 'CSS', 'JavaScript', 'Git', 'Bash'];
+const mySkills = ['HTML', 'CSS', 'JavaScript', 'Git', 'React'];
 
-const findX = (phrase, string) => {
-    let newPhrase = phrase.replace('x', string);
-
-    return newPhrase;
-}
+const findX = (phrase, string) => phrase.replace('x', string);
 
 let newString = findX('Eu gosto de x', 'surfar');
 
