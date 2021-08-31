@@ -53,4 +53,10 @@ const listValues = (obj) => {
 
 // listValues(lesson2);
 
+//Crie um objeto de nome allLessons , que deve agrupar todas as aulas através do Object.assign.
+
+const allLessons = Object.assign({}, {lesson1}, {lesson2}, {lesson3});
+
+// console.log(allLessons);
+
 
