@@ -35,10 +35,22 @@ const listKeys = (obj) => {
 // listKeys(lesson2);
 
 // Crie uma função para mostrar o tamanho de um objeto.
-
 const objectSize = (obj) => {
     let size  = Object.keys(obj).length
     console.log(`O objeto tem o tamanho de: ${size} elementos.`);
 };
 
-objectSize(lesson2);
+// objectSize(lesson2);
+
+// Crie uma função para listar os valores de um objeto.
+const listValues = (obj) => {
+    const values = Object.values(obj);
+
+    for (let value of values) {
+        console.log(value);
+    }
+}
+
+// listValues(lesson2);
+
+
