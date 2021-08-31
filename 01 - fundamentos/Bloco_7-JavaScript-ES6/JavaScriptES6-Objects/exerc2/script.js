@@ -26,10 +26,19 @@ generateKeys(lesson2, 'turno', 'manhã');
 // Crie uma função para listar as keys de um objeto.
 const listKeys = (obj) => {
     const keys = Object.keys(obj);
-    
+
     for (const key of keys) {
         console.log(key);
     }
 }
 
-listKeys(lesson2);
+// listKeys(lesson2);
+
+// Crie uma função para mostrar o tamanho de um objeto.
+
+const objectSize = (obj) => {
+    let size  = Object.keys(obj).length
+    console.log(`O objeto tem o tamanho de: ${size} elementos.`);
+};
+
+objectSize(lesson2);
