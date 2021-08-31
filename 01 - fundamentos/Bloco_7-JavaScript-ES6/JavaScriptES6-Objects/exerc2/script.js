@@ -82,6 +82,14 @@ const getValueWithIndex = (obj, index) => {
 
 // console.log(getValueWithIndex(lesson1, 1))
 
+// Crie uma função que verifique se o par (chave / valor) existe na função.
+const checkIfHaveKeyAndValue = (obj, key, value) => {
+    if (obj[key] === value) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 
-
-
+// console.log(checkIfHaveKeyAndValue(lesson2, 'materia', 'História'));
