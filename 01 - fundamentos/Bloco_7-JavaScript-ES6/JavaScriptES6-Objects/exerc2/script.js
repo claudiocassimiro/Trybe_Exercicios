@@ -67,7 +67,20 @@ const totalStudants = (obj) => {
     return `O numero total de alunos em todas as aulas é de ${total} estudantes.`
 }
 
-console.log(totalStudants(allLessons));
+// console.log(totalStudants(allLessons));
+
+// Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto.
+const getValueWithIndex = (obj, index) => {
+    const value = Object.values(obj);
+    if (index > value.length) {
+        return `O valor digitado para o index ultrapassa o número de valores no objeto, tente novalmente com um valor até ${value.length - 1}.`;
+    }
+    else {
+        return `No index digitado encontrei o valor: ${value[index]}`;
+    }
+}
+
+// console.log(getValueWithIndex(lesson1, 1))
 
 
 
