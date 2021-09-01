@@ -196,7 +196,11 @@ html {
         text-align: justify;
         font-size: 15px;
     }
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> exercicies/6.5
 
 @media screen and (min-width: 1024px) {
     body {
@@ -294,4 +298,8 @@ html {
         text-align: justify;
         font-size: 20px;
     }
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> exercicies/6.5
