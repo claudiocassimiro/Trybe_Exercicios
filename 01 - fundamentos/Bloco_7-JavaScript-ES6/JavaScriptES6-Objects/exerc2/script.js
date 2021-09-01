@@ -95,6 +95,7 @@ const checkIfHaveKeyAndValue = (obj, key, value) => {
 // console.log(checkIfHaveKeyAndValue(lesson2, 'materia', 'História'));
 
 // bonus
+
 // Crie uma função para contar quantos estudantes assistiram às aulas de Matemática. Use o objeto criado no exercício 5.
 const countStudents = (obj) => {
     let total = 0;
@@ -107,4 +108,28 @@ const countStudents = (obj) => {
     return total;
 }
 
-console.log(countStudents(allLessons));
+// console.log(countStudents(allLessons));
+
+// Crie uma função que deverá retornar um objeto que representa o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes. Use o objeto criado no exercício 5:
+const createReport = (obj, stringName) => {
+    const keys = Object.keys(obj);
+    let professor = '';
+    let totalAluno = 0;
+    const aulas = [];
+    for (let key of keys) {
+        if (obj[key].professor === stringName) {
+            professor = obj[key].professor
+            aulas.push(obj[key].materia);
+            totalAluno += obj[key].numeroEstudantes;
+        }
+    }
+    const report = {
+        professor: professor,
+        aulas: aulas,
+        estudates: totalAluno
+    }
+
+    return report;
+}
+
+console.log(createReport(allLessons, 'Maria Clara'));
