@@ -508,29 +508,29 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 6-2: _JavaScript libraries and CSS Frameworks_
 
-:black_large_square: 6-3: _CSS Flexbox - Part 1_
+:ballot_box_with_check: 6-3: _CSS Flexbox - Part 1_
 
-:black_large_square: 6-4: _CSS Flexbox - Part 2_
+:ballot_box_with_check: 6-4: _CSS Flexbox - Part 2_
 
-:black_large_square: 6-5: _CSS Responsive - Mobile First_
+:ballot_box_with_check: 6-5: _CSS Responsive - Mobile First_
 
-:black_large_square: 6-6: _Project - Trybewarts_
+:ballot_box_with_check: 6-6: _Project - Trybewarts_
 
 
 ### Part 7: JavaScript ES6 & Unit testing
 
-:black_large_square: 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
+:ballot_box_with_check: 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
 
-:black_large_square: 7-2: _JavaScript ES6 - Objects_
+:ballot_box_with_check: 7-2: _JavaScript ES6 - Objects_
 
-:black_large_square: 7-3: _Unit testing - JavaScript_
+:ballot_box_with_check: 7-3: _Unit testing - JavaScript_
 
-:black_large_square: 7-4: _Project - JavaScript Unit testing_
+:ballot_box_with_check: 7-4: _Project - JavaScript Unit testing_
 
 
 ### Part 8: Higher Order Functions do JavaScript ES6
 
-:black_large_square:8-1: _JavaScript ES6 - Introduction to Higher Order Functions_
+:black_large_square: 8-1: _JavaScript ES6 - Introduction to Higher Order Functions_
 
 :black_large_square: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 
