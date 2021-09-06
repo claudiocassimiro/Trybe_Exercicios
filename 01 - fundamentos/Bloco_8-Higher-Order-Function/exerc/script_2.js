@@ -13,4 +13,4 @@ const checkSorteio = (drawn, chosen) => {
     return drawn === chosen;
 }
 
-console.log(sorteio(3, checkSorteio));
+console.log(sorteio(4, checkSorteio));

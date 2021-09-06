@@ -14,14 +14,16 @@ const checkAnswers = (rightAnswers, studentAnswers) => {
         if (studentAnswers[index] === 'N.A') {
             nada += 1;
         }
+        
+        if (rightAnswers[index] !== studentAnswers[index] && rightAnswers[index] === 'N.A') {
+            nota -= 0.5;
+        }
 
         if (rightAnswers[index] === studentAnswers[index]) {
             nota += 1;
             countRights += 1;
         }
-        else {
-            nota -= 0.5;
-        }
+
     }
     console.log(`Sua nota foi: ${nota}.`);
     console.log(`Você deixou ${nada} questões sem resposta!`)
