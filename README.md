@@ -79,30 +79,30 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 
-:black_large_square: 6-3: _CSS Flexbox - Part 1_
+:ballot_box_with_check: 6-3: _CSS Flexbox - Part 1_
 
-:black_large_square: 6-4: _CSS Flexbox - Part 2_
+:ballot_box_with_check: 6-4: _CSS Flexbox - Part 2_
 
-:black_large_square: 6-5: _CSS Responsivo - Mobile First_
+:ballot_box_with_check: 6-5: _CSS Responsivo - Mobile First_
 
-:black_large_square: 6-6: _Projeto - Trybewarts_
+:ballot_box_with_check: 6-6: _Projeto - Trybewarts_
 
 ### Bloco 7: JavaScript ES6 & Testes Unitários
 
-:black_large_square: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+:ballot_box_with_check: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 
-:black_large_square: 7-2: _JavaScript ES6 - Objects_
+:ballot_box_with_check: 7-2: _JavaScript ES6 - Objects_
 
-:black_large_square: 7-3: _Testes unitários em JavaScript_
+:ballot_box_with_check: 7-3: _Testes unitários em JavaScript_
 
-:black_large_square: 7-4: _Projeto - JavaScript Testes Unitários_
+:ballot_box_with_check: 7-4: _Projeto - JavaScript Testes Unitários_
 
 
 ### Bloco 8: Higher Order Functions do JavaScript ES6
 
-:black_large_square:8-1: _JavaScript ES6 - Introdução Higher Order Functions_
+:ballot_box_with_check:8-1: _JavaScript ES6 - Introdução Higher Order Functions_
 
-:black_large_square: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+:ballot_box_with_check: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 
 :black_large_square: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 
