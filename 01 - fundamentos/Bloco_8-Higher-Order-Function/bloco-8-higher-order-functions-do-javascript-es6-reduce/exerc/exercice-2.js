@@ -74,7 +74,7 @@ function reduceNames(arr) {
       return `${result}${object.author.name}.`;
     }
     return `${result}${object.author.name}, `;
-  }, ''.slice(0, -2));
+  }, '');
 }
 
 assert.strictEqual(reduceNames(books), expectedResult);
