@@ -104,18 +104,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 
-:black_large_square: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+:ballot_box_with_check: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 
-:black_large_square: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+:ballot_box_with_check: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 
-:black_large_square: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+:ballot_box_with_check: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 
-:black_large_square: 8-5: _Projeto - Zoo functions_
+:ballot_box_with_check: 8-5: _Projeto - Zoo functions_
 
 
 ### Bloco 9: Javascript Assíncrono e Promises
 
-:black_large_square: 9-1: _JavaScript Assíncrono e Callbacks_
+:ballot_box_with_check: 9-1: _JavaScript Assíncrono e Callbacks_
 
 :black_large_square: 9-2: _JavaScript Promises_
 
@@ -534,18 +534,18 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 
-:black_large_square: 8-3: _JavaScript ES6 - Higher Order Functions - map and filter_
+:ballot_box_with_check: 8-3: _JavaScript ES6 - Higher Order Functions - map and filter_
 
-:black_large_square: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+:ballot_box_with_check: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 
-:black_large_square: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
+:ballot_box_with_check: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
 
-:black_large_square: 8-5: _Project - Zoo functions_
+:ballot_box_with_check: 8-5: _Project - Zoo functions_
 
 
 ### Part 9: Asynchronous Javascript and Promises
 
-:black_large_square: 9-1: _JavaScript Async and Callbacks_
+:ballot_box_with_check: 9-1: _JavaScript Async and Callbacks_
 
 :black_large_square: 9-2: _JavaScript Promises_
 
