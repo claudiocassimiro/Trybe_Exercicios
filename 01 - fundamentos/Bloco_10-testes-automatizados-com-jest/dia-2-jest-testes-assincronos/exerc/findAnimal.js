@@ -21,18 +21,31 @@ const findAnimalByName = (name) => (
   })
 );
 
-// const findAnimalByName = (name) => (
-//   new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//       const result = Animals.find((animal) => animal.name === name);
+const findAnimalByType = (type) => (
+  new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const arrayAnimal = Animals.filter((animal) => animal.type === type);
 
-//       if (result) {
-//         return resolve(result);
-//       }
+      if (arrayAnimal !== 0) {
+        return resolve(arrayAnimal);
+      }
 
-//       return reject(new Error('Nenhum animal com esse nome!'));
-//     }, 100);
-//   })
-// );
+      return reject(new Error('Não possui esse tipo de animal.'));
+    }, 100)
+  })
+);
 
-module.exports = findAnimalByName;
+const findAnimalByAge = (age) => (
+  new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const arrayAnimalAge = Animals.filter((animal) => animal.age === age);
+
+      if (arrayAnimalAge !== 0) {
+        return resolve(arrayAnimalAge);
+      }
+      return reject(new Error('Nenhum animal encontrado!'));
+    }, 100)
+  })
+);
+
+module.exports = {findAnimalByName, findAnimalByType, findAnimalByAge };
