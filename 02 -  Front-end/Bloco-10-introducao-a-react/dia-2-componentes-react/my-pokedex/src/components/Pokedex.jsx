@@ -1,5 +1,6 @@
 import React from 'react';
 import Pokemon from './Pokemon';
+import './Pokedex.css'
 import PropTypes from 'prop-types'
 
 class Pokedex extends React.Component {
@@ -8,7 +9,7 @@ class Pokedex extends React.Component {
         const pokemons = this.props.poke;
 
         return (
-            <div>
+            <div className="containerPokemons">
                 {pokemons.map(pokemon => <Pokemon key={pokemon.id} poke={pokemon}/>)}
             </div>
         );
