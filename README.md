@@ -1,5 +1,5 @@
 # Trybe
- 
+
 :rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](#english-version---trybe). 
 
 Este repositório contêm todas as atividades de aprendizagem desenvolvidas por [Cláudio Cassimiro](https://www.linkedin.com/in/claudiocassimiro/) enquanto estudante da [Trybe](https://www.betrybe.com/) :rocket: (2021-2022).
@@ -37,7 +37,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :ballot_box_with_check: 3-4: _HTML Semântico_
 
 :ballot_box_with_check: 3-5: _Projeto - Lesson Learned_
-  
+
 
 ### Bloco 4: Introdução - JavaScript e Lógica
 
@@ -51,7 +51,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 4-5: _Projeto - Playground Functions_
 
-  
+
 ### Bloco 5: Javascript: DOM, Eventos e Web Storage
 
 :ballot_box_with_check: 5-1: _JavaScript - DOM e seletores_
@@ -132,37 +132,39 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 10-4: _Projeto - Jest Assíncrono e Mocking_
 
-  
+
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 
 ### Bloco 11: Introdução - React
 
-:black_large_square: 11-1: _'Hello, world!' no React!_
+:ballot_box_with_check: 11-1: _'Hello, world!' no React!_
 
-:black_large_square: 11-2: _Componentes React_
+:ballot_box_with_check: 11-2: _Componentes React_
 
-:black_large_square: 11-3: _Projeto - Movie Cards Library_
+:ballot_box_with_check: 11-3: _Projeto - Movie Cards Library_
 
- 
+
 ### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
-:black_large_square: 12-1: _Components com estado e eventos_
+:ballot_box_with_check: 12-1: _Components com estado e eventos_
 
-:black_large_square: 12-2: _Formulários no React_
-:black_large_square: 12-3: _Projeto - Movie Cards Library Stateful_
+:ballot_box_with_check: 12-2: _Formulários no React_
+
+:ballot_box_with_check: 12-3: _Projeto - Movie Cards Library Stateful_
 
 ### Bloco 13: Ciclo de Vida de Componentes e React Router
 
-:black_large_square: 13-1: _Ciclo de vida de componentes_
-:black_large_square: 13-2: _React Router_
+:ballot_box_with_check: 13-1: _Ciclo de vida de componentes_
 
-:black_large_square: 13-3: _Projeto - Movie Cards Library CRUD_
+:ballot_box_with_check: 13-2: _React Router_
+
+:ballot_box_with_check: 13-3: _Projeto - Movie Cards Library CRUD_
 
 
 ### Bloco 14: Metodologias ágeis
 
-:black_large_square: 14-1: _Metodologias ágeis_
+:ballot_box_with_check: 14-1: _Metodologias ágeis_
 
 :black_large_square: 14-2: _Projeto - Frontend Online Store_
 
@@ -190,7 +192,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :black_large_square: 16-5: _Testes em React-Redux_
 
 :black_large_square:16-6: _Projeto - Trybe Wallet_
-  
+
 
 ### Bloco 17: Projeto React
 
@@ -228,7 +230,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :black_large_square: 20-5: _Projeto - All For One_
 
- 
+
 ### Bloco 21: Funções SQL, Joins e Subqueries
 
 :black_large_square: 21-1: _Funções mais usadas no SQL_
@@ -250,7 +252,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :black_large_square: 22-3: _Projeto - One For All_
 
- 
+
 ### Bloco 23: Introdução - MongoDB
 
 :black_large_square: 23-1: _Introdução NoSQL e MongoDB_
@@ -270,7 +272,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :black_large_square: 24-4: _Projeto - Commerce_
 
-  
+
 ### Bloco 25: MongoDB: Aggregation Framework
 
 :black_large_square: 25-1: _Aggregation Framework - Part 1_
@@ -278,7 +280,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :black_large_square: 25-2: _Aggregation Framework - Part 2_
 
 :black_large_square: 25-3: _Projeto - Aggregations_
- 
+
 ### Bloco 26: Introdução - NodeJS
 
 :black_large_square: 26-1: _NodeJS - Introdução_
@@ -306,7 +308,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :black_large_square: 27-3: _Projeto - Store Manager_
 
- 
+
 ### Bloco 28: Autenticação e Upload de Arquivos
 
 :black_large_square: 28-1: _NodeJS - JWT - (JSON Web Token)_
@@ -360,7 +362,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
- 
+
 ### Bloco 33: Introdução - Ciência da Computação
 
 :black_large_square:  33-1: _Arquitetura de Computadores_
@@ -428,7 +430,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :black_large_square: 38-4: _Projeto: TING - Trybe Is Not Google_
 
- 
+
 # [...]
 
  # English version - Trybe
@@ -467,7 +469,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :ballot_box_with_check: 3-4: _HTML semantic elements_
 
 :ballot_box_with_check: 3-5: _Project - Lesson Learned_
-  
+
 ### Part 4: Introdução - JavaScript e Lógica
 
 :ballot_box_with_check:  4-1: _JavaScript - First steps_
@@ -660,7 +662,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 20-5: _Project - All For One_
 
- 
+
 ### Part 21: Functions SQL, Joins and Subqueries
 
 :black_large_square: 21-1: _Most used functions in SQL_
@@ -682,7 +684,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 22-3: _Project - One For All_
 
- 
+
 ### Part 23: Introduction - MongoDB
 
 :black_large_square: 23-1: _Introduction to NoSQL e MongoDB_
@@ -702,7 +704,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 24-4: _Project - Commerce_
 
-  
+
 ### Part 25: MongoDB: Aggregation Framework
 
 :black_large_square: 25-1: _Aggregation Framework - Part 1_
@@ -739,7 +741,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 27-3: _Project - Store Manager_
 
- 
+
 ### Part 28: Authentication and file uploads
 
 :black_large_square: 28-1: _NodeJS - JWT - (JSON Web Token)_
@@ -792,7 +794,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ## Computer Science :hourglass_flowing_sand:
 
- 
+
 ### Bloco 33: Introduction - Computer Science
 
 :black_large_square:  33-1: _Computer Architecture_
@@ -859,5 +861,4 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :black_large_square: 38-3: _Stacks_
 
 :black_large_square: 38-4: _Project: TING - Trybe Is Not Google_
-
 
