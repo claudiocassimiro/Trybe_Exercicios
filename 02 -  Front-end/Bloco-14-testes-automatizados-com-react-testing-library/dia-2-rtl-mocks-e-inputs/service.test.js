@@ -49,9 +49,4 @@ describe('Crie três funções, e mude as implementações delas com mock', () =
     test('a função concatStrings deve receber três strings e concatená-las.', () => {
         expect(service.concatStrings('TESTE', 'TESTE', 'TESTE')).toBe('TESTETESTETESTE');
     });
-
-    // service.upperCase.mockRestore();
-    // test('Verica se a implementação da função upperCase foi restaurada para original', () => {
-    //     expect(service.upperCase('teste')).toBe('TESTE');
-    // });
 });
