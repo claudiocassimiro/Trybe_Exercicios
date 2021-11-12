@@ -52,7 +52,7 @@ const store = Redux.createStore(reducer);
 
 store.subscribe(() => {
     const { colors, index } = store.getState();
-    const div = document.querySelector('#container');
+    const colorContainer = document.querySelector('#container');
     const value = document.querySelector('#value');
     value.innerHTML = colors[index];
     div.style.backgroundColor = colors[index];
